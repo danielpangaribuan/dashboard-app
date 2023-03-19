@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { close } from "react-icons-kit/fa/close";
-import { reorder } from "react-icons-kit/fa/reorder";
-import { Icon } from "react-icons-kit";
 
 function SidebarMobile({ isOpen, closeSidebarLeft }) {
   const location = useLocation();
